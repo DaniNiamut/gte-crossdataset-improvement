@@ -42,7 +42,7 @@ class MonophonicTablatureEstimation():
     def load_plus(self, num_sources=None):
         '''
         num_sources: int > 0 or None
-        num_sources states how many sources from the CRINGE2_dataset will be loaded. If None,
+        num_sources states how many sources from the CHROM_SCALES_dataset will be loaded. If None,
         all sources are used.
         '''
         file_annotations = {}
