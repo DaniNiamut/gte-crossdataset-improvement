@@ -19,7 +19,7 @@ with VAE. This is seeming less and less likely though.
 class AudioOverlay():
     
     def __init__(self, sr=44100, fade_alpha=0.1, cut_off_buffer=0.1,
-                 string_names=CRINGE2_STRING_NAMES):
+                 string_names=CHROME_SCALES_STRING_NAMES):
         '''
         cut_off_buffer : in seconds (maybe we should change it to samples)
         '''
