@@ -8,7 +8,7 @@ VIS_PATH = os.getcwd() + '/CodeOutput/Visualizations'
 PREV_MODELS_PATH = os.getcwd() + '/CodeOutput/PreviousModels'
 CHROM_SCALES_PATH = CLEAN_DATASET_PATH + 'chromatic_scales'
 MIDI_NOTE_NUMBERS = [40, 45, 50, 55, 59, 64]
-CRINGE2_STRING_NAMES = ['Low E', 'A', 'D', 'G', 'B', 'High E']
+CHROME_SCALES_STRING_NAMES = ['Low E', 'A', 'D', 'G', 'B', 'High E']
 QUARTER_TIME = 960
 STRING_NAME_TO_MIDI = {
     'Low E': 40, 
